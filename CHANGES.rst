@@ -17,6 +17,8 @@ New Features
 
 - Snackbar history logger has been moved from an overlay to a separate tab in the right sidebar tray. [#3466]
 
+- Added an STC-S string region parser to the Footprints plugin. [#3479]
+
 Cubeviz
 ^^^^^^^
 
@@ -111,7 +113,7 @@ Other Changes and Additions
 
 - Refactored flux conversion to use a single function for all plugin/viewer flux/surface brightness
   conversions. [#3457]
-  
+
 
 4.1.2 (unreleased)
 ==================
@@ -127,7 +129,7 @@ Bug Fixes
 Cubeviz
 ^^^^^^^
 
-- Hide spectral subset layer visibility in flux/uncertainty viewers when slice indicator 
+- Hide spectral subset layer visibility in flux/uncertainty viewers when slice indicator
   is within the spectral subset bounds. [#3437]
 
 Imviz
